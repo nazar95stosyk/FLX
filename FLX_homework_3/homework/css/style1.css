@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    font: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+     }
+  body .main-wrapper 
+  {
+    background-color: #fff; 
+  }
+    body .main-wrapper header 
+    {
+      height: 100vh;
+      background: url("../img/header_background_v1.jpg") no-repeat;
+      background-size: 100% 100%; 
+    }
+    body .main-wrapper .top-wrapper 
+    {
+      display: flex;
+      justify-content: space-between; 
+    }
+      body .main-wrapper .top-wrapper .logo 
+      {
+        width: 16%; 
+      }
+        body .main-wrapper .top-wrapper .logo img 
+        {
+          width: 100%; 
+        }
+      body .main-wrapper .top-wrapper nav 
+      {
+        display: flex;
+        height: 55px; 
+      }
+        body .main-wrapper .top-wrapper nav a 
+        {
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 600;
+          text-decoration: none;
+          padding: 20px 120px;
+          border-right: 2px solid #607d8b; 
+        }
+          body .main-wrapper .top-wrapper nav a:last-child
+          {
+            border: none;
+          }
+    body .main-wrapper .top-wrapper + section 
+    {
+      margin-top: 195px;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase; 
+    }
+      body .main-wrapper .top-wrapper + section a 
+      {
+        margin-top: 5px;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        background: #01acac;
+        border: 1px solid #01acac;
+        padding: 10px 60px; 
+      }
+    body .main-wrapper main 
+    {
+      margin: 0px auto;
+      width: 955px;
+      color: #000; 
+    }
+      body .main-wrapper main .toolbar 
+      {
+        margin-top: 20px;
+        text-align: right;
+      }
+        body .main-wrapper main .toolbar input 
+        {
+          background-color: transparent;
+          padding-left: 20px;
+          width: 200px;
+          height: 40px;
+          border: 1px solid #607d8b;
+          box-sizing: border-box;                    
+        }
+      body .main-wrapper main .post-list h1 
+      {
+        margin-bottom: 0px;
+        text-align: right;
+        text-transform: uppercase;         
+      }
+      body .main-wrapper main .post-list article 
+      {
+        display: flex;
+        background-color: #efefef;
+        margin-bottom: 20px; 
+      }
+        body .main-wrapper main .post-list article img 
+        {
+          margin: 10px;
+          width: 280px;
+          height: 280px;
+        }
+      body .main-wrapper main .post-list .post .post-description 
+      {
+        margin-right: 20px;
+        font-size: 12px;
+        padding: 10px 0px 5px 5px;
+        color: #f00;
+        border-bottom: 1px solid #607d8b;  
+       }
+      body .main-wrapper main .post-list .post h3 
+      {
+        margin: 5px 0px 0px 0px;
+        text-transform: uppercase;
+        color: #0097a7;
+      }
+      body .main-wrapper main .post-list .post p
+      {
+        margin: 5px 25px 0px 0px; 
+      }
+      body .main-wrapper main .post-list .btn 
+      {
+        margin-top: 10px;
+        background: #1998a7;
+        padding: 10px 70px;
+        border: 1px solid #01acac;
+        text-transform: uppercase;       
+        font-size: 15px;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        left: 435px;
+         
+      }
+      body .main-wrapper main .about 
+      {
+        margin: 0px 15px; 
+      }
+        body .main-wrapper main .about h1 
+        {
+          margin-top: 70px;
+          margin-bottom: 0px;
+          text-transform: uppercase;
+          text-align: right;                   
+        }
+        body .main-wrapper main .about h1 + p 
+        {
+          margin-top: 0px; 
+        }
+        body .main-wrapper main .about img 
+        {
+          margin-top: 5px;
+          width: 100%; 
+        }
+      body .main-wrapper main .contact-form 
+      {
+        text-align: right; 
+      }
+        body .main-wrapper main .contact-form h1 
+        {
+          margin-top: 50px;
+          margin-bottom: 0px;
+        }
+        body .main-wrapper main .contact-form h4 
+        {
+          margin: 0px 0px 20px 0px; 
+          text-transform: uppercase;          
+        }
+        body .main-wrapper main .contact-form form label 
+        {
+          color: #1998a7; 
+        }
+        body .main-wrapper main .contact-form .wrapper-two-input 
+        {
+          margin-bottom: 20px;
+          display: flex;           
+        }
+          body .main-wrapper main .contact-form .wrapper-two-input #full-name, body .main-wrapper main .contact-form .wrapper-two-input #email 
+          {
+            background-color: transparent;
+            width: 475px;
+            height: 40px;                        
+            border: 1px solid #607d8b;             
+          }
+        body .main-wrapper main .contact-form #requested-text 
+        {
+          background-color: transparent;
+          border: 1px solid #607d8b;
+          width: 955px;           
+        }
+        body .main-wrapper main .contact-form .submit 
+        {
+          margin-top: 10px;
+          background: #01acac;
+          padding: 10px 70px;
+          border: 1px solid #01acac;
+          text-transform: uppercase;          
+          font-size: 14px;
+          color: #fff;
+          cursor: pointer;
+          min-width: 200px;           
+        }
+    body .main-wrapper footer 
+    {
+      padding: 10px;
+      font-size: 11px;
+      font-weight: inherit;       
+    }
