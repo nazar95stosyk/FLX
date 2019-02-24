@@ -1,0 +1,93 @@
+#root {
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;    
+  }
+  
+  h1 {
+    font-weight: 100;
+  }
+  
+  .main_wrapper {
+    width: 56vw;
+    text-align: center;
+    border: solid rgb(121, 120, 120) 1.6px;
+  }
+  
+  .footer_img {
+    width: 7vw;
+  }
+  
+  .add_btn_input {
+    justify-content: center;
+    display: flex;    
+  }
+  
+  .field_for_input {
+    align-self: center;
+  }
+  
+  #new_add {
+    margin-right: 0.45vw;
+    border: solid 1.5px rgb(0, 0, 0);
+    width: 39vw;    
+    height: 20px;
+    
+  }
+  
+  #new_add::placeholder {
+    color: rgb(187, 186, 186);
+    padding-left: 0.48vw;
+    font-size: 1.21vw;    
+  }
+  
+  .material-icons.shazam {
+    font-size: 35px;
+  }
+  
+  .add_btn_input {
+    margin: 1.02vw 4.02vw;
+    padding-bottom: 2.01vw;
+    border: solid;
+    border-color:  transparent transparent black transparent; 
+    
+  }
+  
+  .use_item {
+    justify-content: space-between;
+    display: flex;    
+    padding: 0 3.01vw;
+  }
+  
+  .use_item:hover {
+    cursor: grab;
+  }
+  
+  .use_item:active {
+    cursor: grabbing;
+  }
+  
+  .txt_square {
+    display: flex;
+  }
+  
+  .uncheck_item:hover,
+  .delete:hover {
+    cursor: pointer;
+  }
+  
+  .material-icons.batman.flash {
+    color: rgba(0, 0, 0, 0.25);
+  }
+  
+  #check_item:hover {
+    cursor: default;
+  }
+  
+  footer{
+    padding-bottom: 1.01vw;
+    padding-top: 10.01vw;
+    
+  }
+
+
